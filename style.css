@@ -293,7 +293,9 @@ position: relative;
 }
 #services .content .servicebx:hover {
     border: 2px solid #f2ca7e ;
-    background: #11111151;
+    background: radial-gradient(#01010113 , #07070727 , rgba(96, 96, 96, 0.114) );
+    backdrop-filter: blur(280px);
+    
 
 }
 #services .content .servicebx:hover h3 {
