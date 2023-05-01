@@ -197,6 +197,7 @@ header ul li:hover a {
 
 
 #services,
+
 #about,
 #portfolio,
 #contact {
@@ -298,8 +299,16 @@ position: relative;
     
 
 }
+#services .content .servicebx h3 {
+    /* border: 2px solid #f2ca7e ; */
+    margin-top: 16px;
+  
+
+
+}
 #services .content .servicebx:hover h3 {
     /* border: 2px solid #f2ca7e ; */
+    margin-top: 30px;
     background: -webkit-radial-gradient(#f2ca7e 15%,rgb(252, 186, 80),rgb(255, 177, 53));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -331,6 +340,133 @@ position: relative;
     color: #ef6e12;
    
 }
+.sec-01{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+    background: radial-gradient(rgb(51, 9, 79) ,black ) ;
+}
+.scard{
+    display: flex;
+    justify-content: center;align-items: center;
+    margin: 100px 0 10px 0px;
+}
+.scardo{
+    display: flex;
+    justify-content: center;align-items: center;
+    margin: 100px 0px 10px 0px;
+}
+.scontiner{
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.smaintitle{
+    font-size:4rem;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items:center;
+
+}
+.scontent{
+ position:relative; 
+ width: 1150px;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+.scontento{
+    position:relative; 
+    width: 1150px;
+    display: flex;
+    /* flex-direction: column; */
+   justify-content: center;
+   align-items:center;
+  
+
+
+
+   
+   }
+
+.scontent .simage{
+    position:relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.scontento .simageo{
+    position:relative;
+    width: 650px;
+    height: 400px;
+    overflow: hidden;
+    transform: translate(416px , -20px);
+}
+.scontent .simage img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+    
+}
+ .scontento .simageo img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0px;
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+   
+  
+}
+.scontent .stextbx{
+    z-index: 223;
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 480px;
+    border-radius: 10px;
+    border: 1px solid rgba(225,225,225,0.1);
+    transform: translate(-80px , 50px);
+}
+.scontento .stextbxo{
+    z-index: 223;
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 480px;
+    border-radius: 10px;
+    border: 1px solid rgba(225,225,225,0.1);
+    transform: translate(-650px , 35px);
+   
+   
+}
+.scontent .stextbx h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.scontento .stextbxo h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 .centre {
     width: 100%;
     text-align: center;
